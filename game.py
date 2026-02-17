@@ -29,7 +29,7 @@ used_items = []
 
 # The list of choices featured.
 while True:
-    print("\nChose the follwing:")
+    print("\nChoose the following:")
     print("1. Start game")
     print("2. Pick an item")
     print("3. Show the used items")
@@ -111,3 +111,7 @@ while True:
     #choices shown. 
     else:
         print("Invalid choice. Try again.")
+
+again = input("play again? press Y / N: ").lower()
+if again != Y:
+    break
